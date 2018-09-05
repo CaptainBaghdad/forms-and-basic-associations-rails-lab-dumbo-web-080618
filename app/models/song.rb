@@ -20,8 +20,8 @@ class Song < ActiveRecord::Base
      self.artist.name
   end 
   
-  def note_contents=(content)
-    self.content = 
+  def note_contents=(contents)
+    contents.collect {|ele| ele.}
   end 
   
   
